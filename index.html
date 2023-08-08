@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>BTS Play muisc website</title>
+    <!-- link to connect external style sheet-->
+  <link rel="stylesheet" href="./style.css">
+  </head>
+<body>  
+  <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    Play Music
+  </div>
+  <div class="w3-display-middle">
+    <h2 class="w3-jumbo w3-animate-top">BTS</h2 >
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">    
+     <audio id="myAudio">
+  <!-- <source src="horse.ogg" type="audio/ogg"> -->
+  <source src="Song.ogg" type="audio/ogg">
+  <source src="Song.mp3" type="audio/mpeg">
+</audio>  
+<!-- play button using css -->
+      <button onclick="playAudio()" class="button-29" role="button"><i class="fa fa-play"></i></button>
+      <button onclick="pauseAudio()" class="button-29" role="button"><i class="fa fa-pause"></i></button>       
+    </p>
+  </div>
+    <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="https://github.com/Akshayadeveloper" target="_blank">Akshaya developer</a>
+  </div>
+</div>
+  <!-- link to connect external javascript -->
+ <script src="./script.js"></script>
+</body>
+</html>
